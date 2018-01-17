@@ -1,4 +1,4 @@
-sudo ap-get update
+sudo apt-get update
 sudo apt-get install npm -y
 sudo npm -g n
 sudo n latest
@@ -10,4 +10,4 @@ sudo killall homebridge
 cd .homebridge/
 sudo wget https://raw.githubusercontent.com/mrcsmxms/homebridge_installation/master/config.json
 cd
-
+sudo rm install_homebridge.sh

@@ -10,4 +10,4 @@ sudo killall homebridge
 cd .homebridge/
 sudo wget https://raw.githubusercontent.com/mrcsmxms/homebridge_installation/master/config.json
 cd
-sudo rm install_homebridge.sh
+sudo rm installHB.sh

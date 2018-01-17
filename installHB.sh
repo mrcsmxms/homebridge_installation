@@ -14,6 +14,7 @@ echo "
   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
                         // github.com/mrcsmxms
 "
+sleep 3
 sudo apt-get update
 sudo apt-get install npm -y
 sudo npm -g n

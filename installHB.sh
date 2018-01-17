@@ -1,4 +1,4 @@
-echo "
+ echo "
   ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
     ░░░░▒▒▒▒▒▒▒▒▒▒░░▒▒▒▒▒▒░░▒▒▒▒▒▒░░▒▒▒▒▒▒░░░░░░
   ░░░░░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░▒▒░░░░░░▒▒░░░░░░░░
@@ -30,6 +30,10 @@ sudo killall homebridge
 cd .homebridge/
 sudo wget https://raw.githubusercontent.com/mrcsmxms/homebridge_installation/master/config.json
 cd
+<<<<<<< HEAD
 clear
 echo "Installation abgeschlossen"
 echo "Homebridge kann jetzt mit dem Befehl 'homebridge' gestartet werden"
+=======
+sudo rm installHB.sh
+>>>>>>> 233fd82e4201af02058c14899b163426d94bda80
